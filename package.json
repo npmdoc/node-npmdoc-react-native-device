@@ -1,0 +1,17 @@
+{
+    "buildNpmdoc":"react-native-device",
+    "devDependencies": {
+        "react-native-device": "*",
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "name":"npmdoc-react-native-device",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmdoc/node-npmdoc-react-native-device"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh"
+    },
+    "version": "0.0.1"
+}
